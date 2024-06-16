@@ -1,14 +1,19 @@
+import BudgetForm from "./components/BudgetForm"
 
 function App() {
 
   return (
     <>
-      <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-        <h1 className="text-4xl font-bold text-blue-600">
-          Hello, Tailwind CSS with Vite and React!
+      <header className="bg-blue-600 py-8 max-h-72">
+        <h1 className="text-center text-white text-4xl font-black uppercase">
+          Planigicador de Gastos
         </h1>
+      </header>
+      <div className="max-w-3xl mx-auto bg-white shadow-lg rounded-lg mt-10 p-10">
+        <BudgetForm/>
       </div>
-    </>
+
+   </>
   )
 }
 
