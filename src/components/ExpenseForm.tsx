@@ -50,7 +50,7 @@ export const ExpenseForm = () => {
         })
     }
 
-    const handleClick = (e:React.FormEvent<HTMLFormElement>) => {
+    const handleClick = (e:React.MouseEvent<HTMLInputElement>) => {
         e.preventDefault()
         dispatch({type:"add-expense", payload:{expense}})
     }
