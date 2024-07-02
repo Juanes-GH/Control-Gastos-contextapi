@@ -23,7 +23,7 @@ function App() {
       </div>
 
       {isValidBuget &&(
-        <main className="max-w-3xl mx-auto py-10">
+        <main className="max-w-3xl mx-auto py-10 bg-white shadow-lg rounded-lg mt-10">
           <ExpenseList/>
           <ExpenseModal />
         </main>

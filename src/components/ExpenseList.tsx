@@ -10,12 +10,12 @@ export default function ExpenseList() {
     return (
         <div className="mt-10">
             {isEmpty ? (
-                <p className="text-purple-600 text-2xl font-bold">
+                <p className="text-purple-600 text-2xl font-bold text-center">
                     De momento no hay gastos
                 </p>
             ) : (
                 <>
-                    <p className="text-gray-600 text-2xl font-bold my-5">
+                    <p className="text-gray-600 text-2xl font-bold my-5 text-center uppercase">
                         Listados de Gastos
                     </p>
                     {state.expenses.map((expense) => (
